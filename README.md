@@ -4,6 +4,39 @@ Este projeto é uma adaptação do REFramework (Robotic Enterprise Framework) do
 
 ---
 
+## 🔧 Principais Automações
+
+Este projeto foi desenvolvido para automatizar um fluxo completo de validação e gerenciamento de assinaturas de documentos. Abaixo estão os principais pontos de automação implementados:
+
+### 📑 Validação e Gerenciamento de Assinaturas
+
+- ✅ Verificação automática das assinaturas pendentes e concluídas em documentos.
+- 🔗 Geração e envio de links de assinatura personalizados para cada destinatário.
+- 📬 Envio de e-mails para os responsáveis por assinar os documentos.
+
+### 📁 Manipulação de Arquivos
+
+- 📦 Download e extração automática de arquivos ZIP contendo documentos PDF.
+- 🔍 Leitura e análise dos arquivos PDF para conferência de assinaturas.
+- 📤 Upload dos documentos assinados para sistemas externos (via API).
+
+### 📧 Comunicação Automática
+
+- 🚨 Envio de e-mails de alerta para assinantes pendentes.
+- 📨 Envio de documentos finalizados via e-mail ou API (ex: Portal de Assinaturas, SeSuite).
+- ⏰ Agendamento automático de reenvios ou alertas baseados em tentativas e prazos.
+
+### 🔄 Controle e Reprocessamento
+
+- ♻️ Reprocessamento automático de transações falhas com tentativas controladas.
+- 🗂️ Registro e status de cada transação (sucesso ou falha) com logs centralizados.
+
+### 🌐 Integrações Externas - API
+
+- 🔌 Comunicação com o **Portal de Assinaturas** para verificação e envio de status.
+- 🔗 Integração com o **SeSuite** para acompanhamento e upload de documentos assinados.
+
+
 ## 📸 Fluxo do Robô
 
 ![Fluxo do robô](./fluxo.png)
